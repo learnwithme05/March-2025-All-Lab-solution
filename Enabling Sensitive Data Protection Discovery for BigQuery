@@ -1,0 +1,9 @@
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Enabling%20Sensitive%20Data%20Protection%20Discovery%20for%20BigQuery/techcps1282.sh
+sudo chmod +x techcps1282.sh
+./techcps1282.sh
+
+*************************************************************************
+
+export PROJECT_NUMBER=$(gcloud projects describe $DEVSHELL_PROJECT_ID --format="get(projectNumber)")
+
+gcloud projects add-iam-policy-binding $DEVSHELL_PROJECT_ID --member=serviceAccount:service-$PROJECT_NUMBER@dlp-api.iam.gserviceaccount.com --role=roles/resourcemanager.tagUser
