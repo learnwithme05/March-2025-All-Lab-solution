@@ -1,0 +1,5 @@
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Protect%20Cloud%20Traffic%20with%20Chrome%20Enterprise%20Premium%20Security%20Challenge%20Lab/gsp373.sh
+
+sudo chmod +x gsp373.sh
+
+./gsp373.sh
