@@ -1,0 +1,5 @@
+curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Securing%20Google%20Cloud%20with%20CFT%20Scorecard/arcadecrew.sh
+
+sudo chmod +x arcadecrew.sh
+
+./arcadecrew.sh
