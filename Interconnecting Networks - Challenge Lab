@@ -1,0 +1,5 @@
+curl -LO raw.githubusercontent.com/Titash-shil/Interconnecting-Networks---Challenge-Lab/refs/heads/main/qwiklab_explorers-Interconnecting%20Networks.sh
+
+sudo chmod +x qwiklab_explorers-Interconnecting%20Networks.sh
+
+./qwiklab_explorers-Interconnecting%20Networks.sh
