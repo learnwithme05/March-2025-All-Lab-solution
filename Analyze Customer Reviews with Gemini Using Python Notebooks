@@ -1,0 +1,5 @@
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Analyze%20Customer%20Reviews%20with%20Gemini%20Using%20Python%20Notebooks/gsp1249.sh
+
+sudo chmod +x *.sh
+
+./*.sh
