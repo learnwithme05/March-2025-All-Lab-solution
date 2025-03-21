@@ -1,0 +1,5 @@
+export REGION=
+
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Build%20an%20AI%20Image%20Generator%20app%20using%20Imagen%20on%20Vertex%20AI/quicklab.sh
+
+source quicklab.sh
